@@ -1,0 +1,11 @@
+BRAIN PERTURBATION PROJECT
+RAW EEG QC SUMMARY
+==================================================
+
+Total SET files: 83
+PASS: 76
+REVIEW: 7
+FAIL: 0
+ERROR: 0
+MISSING FDT: 0
+FDT SIZE MISMATCH: 0

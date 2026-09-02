@@ -1,0 +1,16 @@
+﻿metric,value
+statistical_input_rows,112
+robustness_input_rows,55
+ranking_input_rows,112
+statistical_features,56
+robustness_features,55
+ranking_features,56
+common_features,55
+final_rows,112
+final_features,56
+targets,2
+fdr_significant_rows,55
+robustness_available_rows,110
+nan_numeric_values,32
+inf_numeric_values,0
+duplicate_target_feature,0

@@ -1,0 +1,13 @@
+metric,value
+input_rows,112
+final_EEG_rows,110
+input_unique_features,56
+final_unique_EEG_features,55
+expected_EEG_features,59
+missing_EEG_features,4
+excluded_non_EEG_features,1
+targets,2
+duplicate_target_feature,0
+NaN_numeric_values,0
+Inf_numeric_values,0
+memory_cond_excluded,1

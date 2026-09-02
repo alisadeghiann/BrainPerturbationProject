@@ -1,0 +1,107 @@
+===========================================================================
+QC DECISION REPORT - 83 RUNS
+===========================================================================
+
+Total runs: 83
+Total channel records: 5727
+
+RECOMMENDED ACTION COUNTS
+---------------------------------------------------------------------------
+recommended_action
+KEEP_REVIEW            48
+KEEP                   17
+INTERPOLATE_CHANNEL     7
+CHANNEL_REVIEW          7
+RUN_REVIEW              3
+EXCLUDE_RUN             1
+
+RUNS REQUIRING MANUAL REVIEW
+---------------------------------------------------------------------------
+subject  run recommended_action  bad_channels  review_channels  pass_channels final_run_status            decision_reason
+sub-002    1        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-003    1        KEEP_REVIEW             0                3             66             PASS    1-9 REVIEW EEG channels
+sub-003    2         RUN_REVIEW             0               27             42       RUN_REVIEW   >=20 REVIEW EEG channels
+sub-004    1         RUN_REVIEW             5               64              0       RUN_REVIEW 5 or more BAD EEG channels
+sub-004    3        KEEP_REVIEW             0                3             66             PASS    1-9 REVIEW EEG channels
+sub-004    4         RUN_REVIEW             0               69              0       RUN_REVIEW   >=20 REVIEW EEG channels
+sub-005    2        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-005    4        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-006    1        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-006    2        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-006    3     CHANNEL_REVIEW             2                8             59       RUN_REVIEW       2-4 BAD EEG channels
+sub-006    4     CHANNEL_REVIEW             4                9             56       RUN_REVIEW       2-4 BAD EEG channels
+sub-007    1        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-007    2        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-007    3        KEEP_REVIEW             0                4             65             PASS    1-9 REVIEW EEG channels
+sub-008    1        KEEP_REVIEW             0                3             66             PASS    1-9 REVIEW EEG channels
+sub-008    4        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-009    1        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-010    1        KEEP_REVIEW             0                3             66             PASS    1-9 REVIEW EEG channels
+sub-010    2        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-010    3        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-010    4        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-012    1     CHANNEL_REVIEW             0               11             58       RUN_REVIEW  10-19 REVIEW EEG channels
+sub-012    2        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-012    3        KEEP_REVIEW             0                7             62             PASS    1-9 REVIEW EEG channels
+sub-014    1     CHANNEL_REVIEW             2                2             65       RUN_REVIEW       2-4 BAD EEG channels
+sub-014    2        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-014    3        KEEP_REVIEW             0                3             66             PASS    1-9 REVIEW EEG channels
+sub-015    1        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-015    2     CHANNEL_REVIEW             0               11             58       RUN_REVIEW  10-19 REVIEW EEG channels
+sub-015    3        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-016    1        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-016    2     CHANNEL_REVIEW             2                8             59       RUN_REVIEW       2-4 BAD EEG channels
+sub-016    3        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-017    2        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-017    3     CHANNEL_REVIEW             0               11             58       RUN_REVIEW  10-19 REVIEW EEG channels
+sub-018    2        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-018    3        KEEP_REVIEW             0                4             65             PASS    1-9 REVIEW EEG channels
+sub-019    1        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-019    2        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-019    3        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-020    2        KEEP_REVIEW             0                6             63             PASS    1-9 REVIEW EEG channels
+sub-020    3        KEEP_REVIEW             0                4             65             PASS    1-9 REVIEW EEG channels
+sub-021    1        KEEP_REVIEW             0                7             62             PASS    1-9 REVIEW EEG channels
+sub-021    2        KEEP_REVIEW             0                9             60             PASS    1-9 REVIEW EEG channels
+sub-021    3        KEEP_REVIEW             0                7             62             PASS    1-9 REVIEW EEG channels
+sub-022    1        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-022    2        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-022    3        KEEP_REVIEW             0                6             63             PASS    1-9 REVIEW EEG channels
+sub-022    4        KEEP_REVIEW             0                6             63             PASS    1-9 REVIEW EEG channels
+sub-022    5        KEEP_REVIEW             0                6             63             PASS    1-9 REVIEW EEG channels
+sub-023    1        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-023    2        KEEP_REVIEW             0                6             63             PASS    1-9 REVIEW EEG channels
+sub-023    3        KEEP_REVIEW             0                2             67             PASS    1-9 REVIEW EEG channels
+sub-023    5        KEEP_REVIEW             0                5             64             PASS    1-9 REVIEW EEG channels
+sub-024    1        KEEP_REVIEW             0                8             61             PASS    1-9 REVIEW EEG channels
+sub-024    2        KEEP_REVIEW             0                7             62             PASS    1-9 REVIEW EEG channels
+sub-024    3        KEEP_REVIEW             0                7             62             PASS    1-9 REVIEW EEG channels
+
+EXCLUSION CANDIDATES
+---------------------------------------------------------------------------
+subject  run  bad_channels  review_channels final_run_status               decision_reason
+sub-004    2            69                0       RUN_REVIEW >=50% of EEG channels are BAD
+
+CHANNEL INTERPOLATION CANDIDATES
+---------------------------------------------------------------------------
+subject  run  bad_channels  review_channels
+sub-001    1             1                4
+sub-002    2             1                1
+sub-002    3             1                2
+sub-002    4             1                4
+sub-007    4             1                5
+sub-017    1             1               10
+sub-018    1             1                1
+
+COUNT CONSISTENCY
+---------------------------------------------------------------------------
+ALL RUNS CONSISTENT
+
+
+IMPORTANT
+---------------------------------------------------------------------------
+This script ONLY analyzes QC CSV files.
+RAW SET/FDT DATA WAS NOT MODIFIED.
+NO CHANNELS WERE REMOVED.
+NO SAMPLES WERE DELETED.
+NO INTERPOLATION WAS PERFORMED.

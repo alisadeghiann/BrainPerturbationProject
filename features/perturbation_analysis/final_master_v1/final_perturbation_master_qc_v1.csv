@@ -1,0 +1,12 @@
+metric,value
+final_rows,110
+unique_features,55
+targets,2
+fdr_significant_rows,53
+subject_robustness_available,110
+nan_numeric_cells,0
+inf_numeric_cells,0
+duplicate_target_feature,0
+statistical_features,56
+robustness_features,55
+evidence_features,55

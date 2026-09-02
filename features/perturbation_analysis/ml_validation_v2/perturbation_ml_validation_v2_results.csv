@@ -1,0 +1,5 @@
+target,model,n_rows,n_subjects,n_features,cv_folds,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,f1_mean,f1_std,roc_auc_mean,roc_auc_std
+remember,logistic_regression,21067,23,33,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+remember,random_forest,21067,23,33,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+correct,logistic_regression,21067,23,33,5,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+correct,random_forest,21067,23,33,5,0.9997653133067356,0.0004693733865289929,0.9987405541561714,0.002518891687657421,0.9998706840812105,0.00025863183757919296,1.0,0.0

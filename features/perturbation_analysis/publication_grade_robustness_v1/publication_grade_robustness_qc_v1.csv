@@ -1,0 +1,2 @@
+rows,unique_features,targets,publication_strong_candidates,publication_supported_candidates,nan_numeric_cells,inf_numeric_cells,duplicate_target_feature,subject_effect_rows,subjects,subject_features
+110,55,2,0,6,0,0,0,1265,23,55

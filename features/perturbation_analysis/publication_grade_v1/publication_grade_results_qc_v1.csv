@@ -1,0 +1,14 @@
+﻿metric,value
+final_rows,110
+unique_features,55
+targets,2
+fdr_significant_rows,53
+publication_candidates,0
+high_priority_candidates,0
+moderate_priority_candidates,0
+statistically_supported,0
+ml_supported_exploratory,0
+exploratory,110
+nan_numeric_cells,0
+inf_numeric_cells,0
+duplicate_target_feature,0

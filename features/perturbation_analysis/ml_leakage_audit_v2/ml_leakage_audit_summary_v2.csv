@@ -1,0 +1,2 @@
+input_file,rows,subjects,numeric_features,direct_leakage_pairs,constant_features,nan_numeric_cells,inf_numeric_cells
+C:\Users\Ali\Desktop\BrainPerturbationProject\features\ml_ready_v2\ml_ready_dataset_v2.csv,21067,23,63,0,3,0,0

@@ -1,0 +1,2 @@
+rows,columns,numeric_columns,total_nan_cells,total_inf_cells,rows_with_nan_or_inf,columns_with_nan,status
+112,23,14,336,0,112,3,REVIEW_REQUIRED

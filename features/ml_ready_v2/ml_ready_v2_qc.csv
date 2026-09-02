@@ -1,0 +1,17 @@
+metric,value
+scientific_v2_rows,21816
+mapping_rows,21067
+overlap_keys,21067
+merged_rows,21067
+final_ml_rows,21067
+subjects,23
+runs,6
+trials,25
+numeric_features,63
+duplicate_keys,0
+nan_values,0
+inf_values,0
+remember_false,9507
+remember_true,11560
+correct_false,1059
+correct_true,20008

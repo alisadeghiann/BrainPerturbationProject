@@ -1,0 +1,9 @@
+metric,value
+input_rows,110
+final_rows,110
+unique_features,55
+targets,2
+duplicate_target_feature,0
+NaN_numeric_values,0
+Inf_numeric_values,0
+FDR_significant_total,53

@@ -1,0 +1,7 @@
+metric,value
+rows,55
+unique_features,55
+columns,15
+nan_numeric_cells,0
+inf_numeric_cells,0
+duplicate_features,0

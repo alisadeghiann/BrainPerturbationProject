@@ -1,0 +1,15 @@
+metric,value
+input_rows,21067
+input_columns,66
+scientific_features,55
+subjects,23
+runs,6
+NaN_values,0
+Inf_values,0
+duplicate_subject_run_epoch_keys,0
+remember_rows_0,9507
+remember_rows_1,11560
+correct_rows_0,1059
+correct_rows_1,20008
+features_with_remember_effect,55
+features_with_correct_effect,55

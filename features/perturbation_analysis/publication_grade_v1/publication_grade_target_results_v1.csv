@@ -1,0 +1,3 @@
+﻿target,mean_evidence_score,max_evidence_score,fdr_significant_features,mean_abs_cohen_d,high_priority_features
+correct,0.498500803683725,0.7820436309226892,39.0,0.09373627539927326,0
+remember,0.3342969107475774,0.5846501610444488,14.0,0.028007515357009474,0

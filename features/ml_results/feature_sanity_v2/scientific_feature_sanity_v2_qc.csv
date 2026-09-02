@@ -1,0 +1,12 @@
+metric,value
+input_rows,21067
+input_columns,74
+numeric_columns,68
+scientific_features,63
+nan_values,0
+inf_values,0
+duplicate_keys,0
+constant_features,3
+low_variance_features,3
+high_correlation_pairs,7
+target_like_scientific_features,0

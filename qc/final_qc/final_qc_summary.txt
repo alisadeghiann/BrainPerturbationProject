@@ -1,0 +1,147 @@
+===========================================================================
+FINAL QC SUMMARY
+===========================================================================
+
+Channel QC records: 5727
+Run QC records: 83
+Subjects: 23
+
+CHANNEL STATUS
+---------------------------------------------------------------------------
+PASS         5114
+REVIEW        522
+BAD            91
+
+RUN STATUS
+---------------------------------------------------------------------------
+PASS                          65
+RUN_REVIEW                    11
+CHANNEL_REVIEW                 7
+
+===========================================================================
+BAD CHANNELS
+===========================================================================
+sub-001 run-1 AF7 ratio=5.125 clip=3.167% amp=7.835% CLIPPING_REVIEW;AMPLITUDE_REVIEW;EXTREME_STD_RATIO
+sub-002 run-2 F9 ratio=2.931 clip=0.788% amp=10.684% SEVERE_AMPLITUDE;ELEVATED_STD
+sub-002 run-3 F9 ratio=2.577 clip=0.312% amp=15.827% SEVERE_AMPLITUDE;ELEVATED_STD
+sub-002 run-4 F9 ratio=3.173 clip=0.696% amp=14.972% SEVERE_AMPLITUDE;HIGH_STD_RATIO
+sub-004 run-1 FP1 ratio=1.082 clip=4.700% amp=13.348% CLIPPING_REVIEW;SEVERE_AMPLITUDE
+sub-004 run-1 FPZ ratio=1.063 clip=4.468% amp=12.327% CLIPPING_REVIEW;SEVERE_AMPLITUDE
+sub-004 run-1 FP2 ratio=1.078 clip=4.527% amp=13.143% CLIPPING_REVIEW;SEVERE_AMPLITUDE
+sub-004 run-1 AF7 ratio=1.069 clip=4.766% amp=13.475% CLIPPING_REVIEW;SEVERE_AMPLITUDE
+sub-004 run-1 AF8 ratio=1.056 clip=4.426% amp=10.768% CLIPPING_REVIEW;SEVERE_AMPLITUDE
+sub-004 run-2 FP1 ratio=1.010 clip=22.729% amp=31.612% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FPZ ratio=1.003 clip=22.477% amp=30.945% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FP2 ratio=1.005 clip=22.571% amp=31.215% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 AF7 ratio=1.007 clip=22.621% amp=32.535% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 AF3 ratio=1.008 clip=21.981% amp=29.972% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 AFZ ratio=1.000 clip=22.209% amp=29.239% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 AF4 ratio=1.004 clip=22.058% amp=29.651% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 AF8 ratio=1.006 clip=22.215% amp=30.745% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F9 ratio=1.002 clip=22.128% amp=29.630% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F7 ratio=1.002 clip=22.082% amp=30.279% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F5 ratio=1.006 clip=21.965% amp=29.007% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F3 ratio=0.995 clip=22.220% amp=28.816% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F1 ratio=0.997 clip=22.189% amp=28.299% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FZ ratio=1.000 clip=22.122% amp=28.263% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F2 ratio=0.987 clip=22.379% amp=28.039% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F4 ratio=0.997 clip=22.265% amp=28.198% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F6 ratio=0.996 clip=22.239% amp=28.340% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F8 ratio=0.998 clip=22.259% amp=28.848% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 F10 ratio=1.010 clip=22.036% amp=28.955% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FT9 ratio=1.002 clip=22.121% amp=28.182% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FT7 ratio=1.001 clip=22.138% amp=28.072% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC5 ratio=1.004 clip=22.095% amp=28.008% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC3 ratio=1.003 clip=22.084% amp=27.975% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC1 ratio=0.987 clip=22.397% amp=27.671% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FCZ ratio=0.995 clip=22.271% amp=27.735% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC2 ratio=1.001 clip=22.216% amp=27.793% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC4 ratio=1.000 clip=22.280% amp=27.877% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FC6 ratio=0.997 clip=22.253% amp=27.764% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FT8 ratio=1.007 clip=22.153% amp=28.003% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 FT10 ratio=1.003 clip=22.209% amp=28.034% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 T7 ratio=1.005 clip=22.157% amp=27.760% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C5 ratio=1.002 clip=22.045% amp=27.667% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C3 ratio=0.999 clip=22.220% amp=27.619% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C1 ratio=0.980 clip=22.486% amp=27.540% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CZ ratio=0.997 clip=22.278% amp=27.556% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C2 ratio=0.993 clip=22.317% amp=27.566% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C4 ratio=1.001 clip=22.251% amp=27.812% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 C6 ratio=0.994 clip=22.356% amp=27.791% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 T8 ratio=1.000 clip=22.240% amp=27.815% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 TP9 ratio=0.996 clip=22.266% amp=27.676% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 TP7 ratio=1.002 clip=22.150% amp=27.693% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP5 ratio=1.002 clip=22.146% amp=27.665% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP3 ratio=1.001 clip=22.148% amp=27.615% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP1 ratio=1.000 clip=22.270% amp=27.755% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CPZ ratio=1.004 clip=22.183% amp=27.734% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP2 ratio=0.995 clip=22.251% amp=27.527% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP4 ratio=0.998 clip=22.267% amp=27.655% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 CP6 ratio=0.996 clip=22.282% amp=27.663% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 TP8 ratio=1.005 clip=22.122% amp=27.755% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 TP10 ratio=0.998 clip=22.259% amp=27.747% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P7 ratio=0.991 clip=22.309% amp=27.563% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P5 ratio=1.001 clip=22.193% amp=27.765% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P3 ratio=0.999 clip=22.188% amp=27.789% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P1 ratio=0.997 clip=22.294% amp=27.875% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PZ ratio=0.997 clip=22.245% amp=27.788% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P2 ratio=0.996 clip=22.276% amp=27.753% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P4 ratio=0.998 clip=22.248% amp=27.814% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P6 ratio=1.003 clip=22.118% amp=27.775% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 P8 ratio=1.000 clip=22.142% amp=27.818% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO9 ratio=1.007 clip=22.026% amp=27.709% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO7 ratio=1.003 clip=22.126% amp=27.793% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO3 ratio=1.002 clip=22.154% amp=27.856% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 POZ ratio=1.002 clip=22.149% amp=27.820% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO4 ratio=0.995 clip=22.281% amp=27.846% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO8 ratio=0.993 clip=22.267% amp=27.796% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 PO10 ratio=0.996 clip=22.237% amp=27.909% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 O1 ratio=0.999 clip=22.159% amp=27.719% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 OZ ratio=0.999 clip=22.147% amp=27.746% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-004 run-2 O2 ratio=1.000 clip=22.171% amp=27.868% SEVERE_CLIPPING;SEVERE_AMPLITUDE
+sub-006 run-3 FPZ ratio=4.868 clip=0.155% amp=10.085% SEVERE_AMPLITUDE;HIGH_STD_RATIO
+sub-006 run-3 FP2 ratio=5.303 clip=0.567% amp=10.439% SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+sub-006 run-4 FP1 ratio=4.913 clip=0.265% amp=11.492% SEVERE_AMPLITUDE;HIGH_STD_RATIO
+sub-006 run-4 FPZ ratio=4.936 clip=0.245% amp=11.529% SEVERE_AMPLITUDE;HIGH_STD_RATIO
+sub-006 run-4 FP2 ratio=5.368 clip=0.772% amp=12.089% SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+sub-006 run-4 AF7 ratio=4.627 clip=0.167% amp=11.191% SEVERE_AMPLITUDE;HIGH_STD_RATIO
+sub-007 run-4 TP9 ratio=5.426 clip=1.659% amp=10.610% CLIPPING_REVIEW;SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+sub-014 run-1 PO7 ratio=6.138 clip=2.262% amp=10.401% CLIPPING_REVIEW;SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+sub-014 run-1 PO10 ratio=8.386 clip=4.132% amp=20.360% CLIPPING_REVIEW;SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+sub-016 run-2 FP1 ratio=5.215 clip=0.224% amp=7.309% AMPLITUDE_REVIEW;EXTREME_STD_RATIO
+sub-016 run-2 FPZ ratio=5.222 clip=0.352% amp=7.826% AMPLITUDE_REVIEW;EXTREME_STD_RATIO
+sub-017 run-1 FPZ ratio=5.263 clip=0.025% amp=9.535% AMPLITUDE_REVIEW;EXTREME_STD_RATIO
+sub-018 run-1 PO4 ratio=11.332 clip=6.294% amp=15.827% SEVERE_CLIPPING;SEVERE_AMPLITUDE;EXTREME_STD_RATIO
+
+===========================================================================
+REVIEW CHANNELS
+===========================================================================
+Total REVIEW channels: 522
+
+===========================================================================
+RUNS REQUIRING REVIEW
+===========================================================================
+sub-001 run-1 status=CHANNEL_REVIEW bad=1 review=4
+sub-002 run-2 status=CHANNEL_REVIEW bad=1 review=1
+sub-002 run-3 status=CHANNEL_REVIEW bad=1 review=2
+sub-002 run-4 status=CHANNEL_REVIEW bad=1 review=4
+sub-003 run-2 status=RUN_REVIEW bad=0 review=27
+sub-004 run-1 status=RUN_REVIEW bad=5 review=64
+sub-004 run-2 status=RUN_REVIEW bad=69 review=0
+sub-004 run-4 status=RUN_REVIEW bad=0 review=69
+sub-006 run-3 status=RUN_REVIEW bad=2 review=8
+sub-006 run-4 status=RUN_REVIEW bad=4 review=9
+sub-007 run-4 status=CHANNEL_REVIEW bad=1 review=5
+sub-012 run-1 status=RUN_REVIEW bad=0 review=11
+sub-014 run-1 status=RUN_REVIEW bad=2 review=2
+sub-015 run-2 status=RUN_REVIEW bad=0 review=11
+sub-016 run-2 status=RUN_REVIEW bad=2 review=8
+sub-017 run-1 status=CHANNEL_REVIEW bad=1 review=10
+sub-017 run-3 status=RUN_REVIEW bad=0 review=11
+sub-018 run-1 status=CHANNEL_REVIEW bad=1 review=1
+
+===========================================================================
+RAW DATA WAS NOT MODIFIED.
+NO SET FILES WERE MODIFIED.
+NO FDT FILES WERE MODIFIED.
+===========================================================================

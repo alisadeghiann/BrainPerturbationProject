@@ -1,0 +1,4 @@
+column,nan_count,total_rows,nan_percent,unique_non_nan
+subject_effect_mean,112,112,100.0,0
+subject_effect_median,112,112,100.0,0
+subject_effect_std,112,112,100.0,0

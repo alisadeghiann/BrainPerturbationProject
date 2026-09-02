@@ -1,0 +1,15 @@
+task_role,0,3,5,7
+bad_trial,33,21,0,12
+feedback_correct,0,613,618,588
+feedback_incorrect,0,25,33,58
+fixate,0,679,687,679
+ignored_correct,2,267,308,300
+ignored_incorrect,0,22,27,38
+indicate_ready,0,679,687,679
+probe_not_shown,0,270,315,323
+probe_target,0,409,372,356
+remembered_correct,4,387,345,318
+remembered_incorrect,19,6,7,24
+to_ignore,0,3395,2061,679
+to_remember,0,2037,3435,4753
+work_memory,0,679,687,679

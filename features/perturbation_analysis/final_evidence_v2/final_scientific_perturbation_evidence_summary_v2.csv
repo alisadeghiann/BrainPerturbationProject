@@ -1,0 +1,4 @@
+target,total_EEG_features,FDR_significant,strong_replicated,moderate_replicated,significant_but_inconsistent,non_significant_agreement,weak_or_unresolved
+correct,55,39,3,18,18,9,7
+remember,55,14,0,5,9,22,19
+ALL,110,53,3,23,27,31,26

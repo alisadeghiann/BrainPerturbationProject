@@ -1,0 +1,5 @@
+﻿subject,run,total_windows,normal_windows,review_windows,global_artifact_windows,total_events,events_normal,events_review,events_global_artifact,events_outside_qc,artifact_seconds,artifact_percent,review_seconds,review_percent,artifact_event_percent,review_event_percent
+sub-004,1,68,29,20,19,350,161,106,83,0,183.052,27.197,200.0,29.715,23.714,30.286
+sub-004,2,74,24,13,37,340,133,50,157,0,366.284,49.748,130.0,17.656,46.176,14.706
+sub-004,3,64,46,8,10,350,269,40,41,0,94.688,14.919,80.0,12.605,11.714,11.429
+sub-004,4,67,58,3,6,352,336,5,11,0,50.864,7.697,30.0,4.54,3.125,1.42

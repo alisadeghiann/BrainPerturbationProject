@@ -1,0 +1,38 @@
+====================================================================================================
+BEHAVIORAL MAPPING AUDIT V5
+====================================================================================================
+
+V5 files found:      82
+Expected files:      82
+Runs PASS:           81
+Runs REVIEW:         0
+
+Total V5 epochs:     21519
+Total BIDS events:   27925
+Total matched:       21519
+Total unmatched:     0
+
+====================================================================================================
+IMPORTANT
+====================================================================================================
+
+This was a READ-ONLY audit.
+No EEG/FIF/TSV/CSV input file was modified.
+No epochs were removed.
+No original V5 file was modified.
+
+Behavioral conditions were read from the original BIDS events.tsv files.
+EEG epochs were matched to BIDS events using the event sample number.
+Maximum allowed sample difference: 5
+
+====================================================================================================
+DECISION
+====================================================================================================
+
+REVIEW - BEHAVIORAL MAPPING REQUIRES INVESTIGATION
+
+Output files:
+C:\Users\Ali\Desktop\BrainPerturbationProject\qc\behavioral_mapping_audit_v5\run_level_mapping_audit_v5.csv
+C:\Users\Ali\Desktop\BrainPerturbationProject\qc\behavioral_mapping_audit_v5\event_level_mapping_audit_v5.csv
+C:\Users\Ali\Desktop\BrainPerturbationProject\qc\behavioral_mapping_audit_v5\condition_summary_v5.csv
+C:\Users\Ali\Desktop\BrainPerturbationProject\qc\behavioral_mapping_audit_v5\behavioral_mapping_audit_v5_summary.txt

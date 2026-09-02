@@ -1,0 +1,15 @@
+column,nan_count,nan_percent,inf_count,status
+subject_effect_mean,112,100.0,0,HAS_NAN
+subject_effect_median,112,100.0,0,HAS_NAN
+subject_effect_std,112,100.0,0,HAS_NAN
+abs_cohen_d,0,0.0,0,OK
+cohen_d,0,0.0,0,OK
+direction_consistency,0,0.0,0,OK
+mean_difference,0,0.0,0,OK
+negative_fraction,0,0.0,0,OK
+p_fdr,0,0.0,0,OK
+p_value,0,0.0,0,OK
+positive_fraction,0,0.0,0,OK
+scientific_priority_score,0,0.0,0,OK
+scientific_rank,0,0.0,0,OK
+subject_count,0,0.0,0,OK

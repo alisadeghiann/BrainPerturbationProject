@@ -1,0 +1,15 @@
+﻿metric,value
+rows,110
+unique_features,55
+targets,2
+fdr_significant_rows,53
+nan_numeric_cells,0
+inf_numeric_cells,0
+duplicate_target_feature,0
+high_confidence_multilayer,1
+strong_multilayer_evidence,15
+moderate_multilayer_evidence,36
+statistical_directional_evidence,0
+ml_supported_evidence,55
+cross_target_supported,0
+exploratory_evidence,3

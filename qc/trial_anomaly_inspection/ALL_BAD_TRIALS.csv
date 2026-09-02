@@ -1,0 +1,17 @@
+source_file,subject,run,trial,memory_cond,event_count,has_fixation,has_work_memory,has_probe,has_feedback,has_to_remember,has_to_ignore,has_probe_target,has_probe_not_shown,accuracy,letters_presented,n_letters,response,feedback,start_sample,end_sample,start_latency,end_latency,expected_14_events,bad_trial
+sub-004_ses-01_task-WorkingMemory_run-2_eeg.set,sub-004,,1,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,1971,4767,1971.0,4766.954266275,False,True
+sub-006_ses-01_task-WorkingMemory_run-1_eeg.set,sub-006,,1,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,1157,32876,1157.0,32876.217525274995,False,True
+sub-006_ses-01_task-WorkingMemory_run-1_eeg.set,sub-006,,2,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,32883,33667,32882.592513725,33667.116092175005,False,True
+sub-006_ses-01_task-WorkingMemory_run-1_eeg.set,sub-006,,4,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,42546,44226,42545.6000045,44225.7469601,False,True
+sub-006_ses-01_task-WorkingMemory_run-1_eeg.set,sub-006,,5,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,44230,45781,44230.096952225,45781.19414165,False,True
+sub-008_ses-01_task-WorkingMemory_run-1_eeg.set,sub-008,,1,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,3670,8452,3670.0,8452.39224655,False,True
+sub-014_ses-01_task-WorkingMemory_run-1_eeg.set,sub-014,,11,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,255359,258876,255359.3069071,258875.6842393,False,True
+sub-014_ses-01_task-WorkingMemory_run-2_eeg.set,sub-014,,3,3,11,True,False,True,True,False,False,False,False,0.0,B F H R Z G M,7,1,wrong,58603,76887,58603.4702827,76887.0347143,False,True
+sub-014_ses-01_task-WorkingMemory_run-2_eeg.set,sub-014,,8,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,166961,173097,166961.3582129,173097.12219159998,False,True
+sub-014_ses-01_task-WorkingMemory_run-3_eeg.set,sub-014,,22,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,515792,519582,515792.2005599,519581.7376447,False,True
+sub-015_ses-01_task-WorkingMemory_run-3_eeg.set,sub-015,,25,0,4,True,False,True,True,False,False,False,False,0.0,,0,1,wrong,270136,276503,270135.76846875,276502.5883357,False,True
+sub-017_ses-01_task-WorkingMemory_run-3_eeg.set,sub-017,,3,0,4,True,False,True,True,False,False,False,False,,,0,255,wrong,25333,27572,25333.4555958,27572.322441300003,False,True
+sub-017_ses-01_task-WorkingMemory_run-3_eeg.set,sub-017,,5,0,4,True,False,True,True,False,False,False,False,,,0,255,wrong,38497,39071,38497.1884436,39070.5336055,False,True
+sub-022_ses-01_task-WorkingMemory_run-1_eeg.set,sub-022,,22,7,13,True,True,True,True,False,False,False,False,0.0,C Z L K R G B T Z,9,1,correct,275214,285612,275213.77646232274,285611.81421866367,False,True
+sub-022_ses-01_task-WorkingMemory_run-2_eeg.set,sub-022,,14,3,13,True,True,True,True,False,False,False,False,0.0,P K B Y D M C F P,9,1,correct,188182,199305,188181.9463531304,199304.98938088803,False,True
+sub-022_ses-01_task-WorkingMemory_run-6_eeg.set,sub-022,,6,0,4,True,False,True,True,False,False,False,False,0.0,,0,255,wrong,101402,105520,101402.00585787196,105520.26107942054,False,True

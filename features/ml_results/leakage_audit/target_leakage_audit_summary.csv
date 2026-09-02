@@ -1,0 +1,3 @@
+target,features_auc_ge_0.995,features_auc_ge_0.95,group_cv_mean_auc,group_cv_min_auc,group_cv_max_auc,status
+remember,2,2,1.0,1.0,1.0,REVIEW_REQUIRED
+correct,1,1,1.0,1.0,1.0,REVIEW_REQUIRED

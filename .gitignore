@@ -1,0 +1,61 @@
+# ==============================
+# EEG RAW / LARGE DATA
+# ==============================
+data/
+epochs/
+epochs_clean/
+epochs_v2/
+epochs_v3/
+preprocessed/
+preprocessed_v2/
+processed/
+final_dataset/
+
+*.fif
+*.edf
+*.bdf
+*.set
+*.fdt
+*.h5
+*.hdf5
+
+# ==============================
+# Generated / Intermediate Outputs
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==============================
+# Local / Temporary Files
+# ==============================
+project_structure.txt
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Secrets
+# ==============================
+.env
+*.env

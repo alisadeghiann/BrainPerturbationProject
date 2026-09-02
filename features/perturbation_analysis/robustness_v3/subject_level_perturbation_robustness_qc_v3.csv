@@ -1,0 +1,11 @@
+metric,value
+input_rows,21067
+input_columns,66
+subjects,23
+scientific_features,56
+targets,2
+result_rows,112
+input_nan_values,0
+input_inf_values,0
+result_nan_values,0
+result_inf_values,0

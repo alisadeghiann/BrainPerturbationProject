@@ -1,0 +1,2 @@
+input_file,rows,subjects,features,targets,models,cv_folds,cv_method,group_variable,nan_numeric_values,inf_numeric_values,duplicate_fold_rows,subject_train_test_overlap
+C:\Users\Ali\Desktop\BrainPerturbationProject\features\ml_ready_v2\ml_ready_dataset_v2.csv,21067,23,60,2,2,5,StratifiedGroupKFold,subject,0,0,0,0

@@ -1,0 +1,2 @@
+input_rows,input_columns,features,targets,statistical_rows,nan_numeric_values,inf_numeric_values,fdr_significant_total,status
+112,19,56,2,112,0,0,55,PASS

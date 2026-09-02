@@ -1,0 +1,12 @@
+metric,value
+input_file,C:\Users\Ali\Desktop\BrainPerturbationProject\features\perturbation_analysis\final_scientific_ranking_v2\final_scientific_evidence_ranking_v2.csv
+rows,110
+features,55
+targets,2
+fdr_significant,53
+publication_strong,0
+publication_supported,0
+nan_numeric_cells,110
+inf_numeric_cells,0
+duplicate_target_feature,0
+direction_consistency_source,reconstructed_or_unavailable

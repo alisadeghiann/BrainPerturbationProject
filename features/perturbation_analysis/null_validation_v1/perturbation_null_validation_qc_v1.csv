@@ -1,0 +1,2 @@
+input_file,rows,targets,features,permutations,random_seed,null_significant_rows,NaN_numeric_cells,Inf_numeric_cells,duplicate_target_feature
+C:\Users\Ali\Desktop\BrainPerturbationProject\features\perturbation_analysis\perturbation_subject_effects.csv,110,2,55,2000,42,1,0,0,0

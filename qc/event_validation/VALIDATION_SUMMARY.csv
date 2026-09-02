@@ -1,0 +1,2 @@
+total_event_rows,unique_eeg_files,unique_subjects,unique_subject_run_pairs,expected_eeg_files,duplicate_event_rows,invalid_latency_rows,invalid_sample_rows,invalid_trial_rows,overall_status
+28615,83,23,23,83,2,0,0,0,REVIEW

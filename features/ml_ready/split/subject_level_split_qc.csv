@@ -1,0 +1,12 @@
+metric,value
+total_rows,21067
+total_subjects,23
+train_subjects,16
+validation_subjects,3
+test_subjects,4
+train_validation_overlap,0
+train_test_overlap,0
+validation_test_overlap,0
+train_rows,14328
+validation_rows,3084
+test_rows,3655

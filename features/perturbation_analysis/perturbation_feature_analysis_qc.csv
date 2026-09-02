@@ -1,0 +1,9 @@
+metric,value
+input_rows,21067
+input_columns,66
+scientific_features,55
+subjects,23
+runs,6
+NaN_values,0
+Inf_values,0
+duplicate_subject_run_epoch_keys,0

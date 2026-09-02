@@ -1,0 +1,84 @@
+﻿subject,run,file,channels_total,eeg_channels_x,srate,duration_seconds,median_eeg_std,bad_channels,review_channels,pass_channels,eeg_channels_checked,final_run_status,calculated_pass_channels,calculated_review_channels,calculated_bad_channels,bad_count_match,review_count_match,pass_count_match,counts_consistent,eeg_channels,recommended_action,decision_reason,needs_manual_review,critical_run
+sub-001,1,sub-001_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,652.952,34.71472546431209,1,4,64,69,CHANNEL_REVIEW,64,4,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-001,2,sub-001_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,615.048,28.17359300132172,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-002,1,sub-002_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,724.484,38.455538733324445,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-002,2,sub-002_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,762.98,46.81189954683269,1,1,67,69,CHANNEL_REVIEW,67,1,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-002,3,sub-002_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,764.904,51.43531358554616,1,2,66,69,CHANNEL_REVIEW,66,2,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-002,4,sub-002_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,725.416,45.40431795690771,1,4,64,69,CHANNEL_REVIEW,64,4,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-003,1,sub-003_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,727.164,33.73077911502889,0,3,66,69,PASS,66,3,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-003,2,sub-003_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,783.996,80.00845656330542,0,27,42,69,RUN_REVIEW,42,27,0,True,True,True,True,69,RUN_REVIEW,>=20 REVIEW EEG channels,True,False
+sub-003,3,sub-003_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,784.34,66.05201036568073,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-003,4,sub-003_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,672.884,78.52047827173762,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-004,1,sub-004_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,673.052,212.19161027569828,5,64,0,69,RUN_REVIEW,0,64,5,True,True,True,True,69,RUN_REVIEW,5 or more BAD EEG channels,True,False
+sub-004,2,sub-004_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,736.284,457.83567817405,69,0,0,69,RUN_REVIEW,0,0,69,True,True,True,True,69,EXCLUDE_RUN,>=50% of EEG channels are BAD,False,True
+sub-004,3,sub-004_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,634.688,49.07680194682967,0,3,66,69,PASS,66,3,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-004,4,sub-004_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,660.864,131.3532957820403,0,69,0,69,RUN_REVIEW,0,69,0,True,True,True,True,69,RUN_REVIEW,>=20 REVIEW EEG channels,True,False
+sub-005,1,sub-005_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,599.324,32.13455941554643,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-005,2,sub-005_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,613.916,19.7044360489602,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-005,3,sub-005_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,619.128,19.71512428591437,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-005,4,sub-005_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,608.168,16.798376383049987,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-006,1,sub-006_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,696.188,23.343754765157435,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-006,2,sub-006_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,575.532,24.21660907229083,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-006,3,sub-006_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,557.676,24.336406122854644,2,8,59,69,RUN_REVIEW,59,8,2,True,True,True,True,69,CHANNEL_REVIEW,2-4 BAD EEG channels,True,False
+sub-006,4,sub-006_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,560.676,25.43344262203213,4,9,56,69,RUN_REVIEW,56,9,4,True,True,True,True,69,CHANNEL_REVIEW,2-4 BAD EEG channels,True,False
+sub-007,1,sub-007_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,603.948,26.33587798030309,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-007,2,sub-007_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,557.3,27.83679125898248,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-007,3,sub-007_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,581.968,32.53637075813936,0,4,65,69,PASS,65,4,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-007,4,sub-007_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,601.46,29.209188936277386,1,5,63,69,CHANNEL_REVIEW,63,5,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-008,1,sub-008_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,614.336,18.7501932487833,0,3,66,69,PASS,66,3,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-008,2,sub-008_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,875.644,34.7781724506089,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-008,3,sub-008_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,757.896,42.92543017056121,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-008,4,sub-008_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,1319.592,68.306535839971,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-009,1,sub-009_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,615.884,18.75277224369897,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-009,2,sub-009_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,628.78,52.08562453833077,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-009,3,sub-009_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,624.812,21.54163338391595,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-009,4,sub-009_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,637.028,14.808505584086303,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-010,1,sub-010_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,619.508,15.72949005860623,0,3,66,69,PASS,66,3,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-010,2,sub-010_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,593.304,16.400819619054097,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-010,3,sub-010_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,594.284,14.21662279456603,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-010,4,sub-010_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,591.84,17.15274120438537,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-011,1,sub-011_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,751.388,11.77325127079867,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-011,2,sub-011_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,766.588,13.422654406841309,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-011,3,sub-011_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,850.524,13.333643671642616,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-011,4,sub-011_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,250.0,813.804,16.803631515686895,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-012,1,sub-012_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,250.0,545.996,28.777895025687336,0,11,58,69,RUN_REVIEW,58,11,0,True,True,True,True,69,CHANNEL_REVIEW,10-19 REVIEW EEG channels,True,False
+sub-012,2,sub-012_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,250.0,563.74,30.12052178255464,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-012,3,sub-012_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,250.0,558.196,33.301000428727384,0,7,62,69,PASS,62,7,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-014,1,sub-014_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,1000.0,588.801,21.61205492048228,2,2,65,69,RUN_REVIEW,65,2,2,True,True,True,True,69,CHANNEL_REVIEW,2-4 BAD EEG channels,True,False
+sub-014,2,sub-014_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,1000.0,606.465,29.92705421982771,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-014,3,sub-014_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,1000.0,595.967,23.7613050842452,0,3,66,69,PASS,66,3,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-015,1,sub-015_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,599.04,13.908210848886124,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-015,2,sub-015_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,563.202,12.463204944148371,0,11,58,69,RUN_REVIEW,58,11,0,True,True,True,True,69,CHANNEL_REVIEW,10-19 REVIEW EEG channels,True,False
+sub-015,3,sub-015_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,555.518,13.442116478483216,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-016,1,sub-016_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,776.194,19.892585121771496,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-016,2,sub-016_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,691.714,21.061862558409093,2,8,59,69,RUN_REVIEW,59,8,2,True,True,True,True,69,CHANNEL_REVIEW,2-4 BAD EEG channels,True,False
+sub-016,3,sub-016_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,566.782,20.25898492842309,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-017,1,sub-017_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,556.546,20.303198461121475,1,10,58,69,CHANNEL_REVIEW,58,10,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-017,2,sub-017_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,555.01,21.756835582849288,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-017,3,sub-017_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,515.582,19.81854031647204,0,11,58,69,RUN_REVIEW,58,11,0,True,True,True,True,69,CHANNEL_REVIEW,10-19 REVIEW EEG channels,True,False
+sub-018,1,sub-018_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,617.984,14.919118830509502,1,1,67,69,CHANNEL_REVIEW,67,1,1,True,True,True,True,69,INTERPOLATE_CHANNEL,1 BAD EEG channel,False,False
+sub-018,2,sub-018_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,594.944,14.710095399376105,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-018,3,sub-018_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,585.214,14.4017335906739,0,4,65,69,PASS,65,4,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-019,1,sub-019_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,638.978,13.902082630773158,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-019,2,sub-019_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,627.712,14.575300102256346,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-019,3,sub-019_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,655.358,15.159766322282604,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-020,1,sub-020_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,599.554,15.00403606098485,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-020,2,sub-020_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,616.962,15.771764065829984,0,6,63,69,PASS,63,6,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-020,3,sub-020_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,585.214,15.579336036443625,0,4,65,69,PASS,65,4,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-021,1,sub-021_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,714.242,18.426744205913327,0,7,62,69,PASS,62,7,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-021,2,sub-021_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,791.042,16.338132544363692,0,9,60,69,PASS,60,9,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-021,3,sub-021_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,680.958,15.369049288382834,0,7,62,69,PASS,62,7,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,1,sub-022_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0586756077117,577.982173089495,0.3835231363331011,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,2,sub-022_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0586756077117,485.3190472199406,0.6477005415124327,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,3,sub-022_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0586756077117,773.5452235278341,0.4094572717219982,0,6,63,69,PASS,63,6,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,4,sub-022_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,500.0586756077117,691.6308362807382,0.4136981909206902,0,6,63,69,PASS,63,6,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,5,sub-022_ses-01_task-WorkingMemory_run-5_eeg.set,71,69,500.0586756077117,696.2402953551134,0.5206894032051739,0,6,63,69,PASS,63,6,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-022,6,sub-022_ses-01_task-WorkingMemory_run-6_eeg.set,71,69,500.0586756077117,808.3551385419984,1.4214104633633518,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-023,1,sub-023_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0586756077117,721.8372915165027,0.3325567933292046,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-023,2,sub-023_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0586756077117,708.5268535125803,0.2830827271040552,0,6,63,69,PASS,63,6,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-023,3,sub-023_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0586756077117,713.644252979533,0.3640337200104078,0,2,67,69,PASS,67,2,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-023,4,sub-023_ses-01_task-WorkingMemory_run-4_eeg.set,71,69,500.0586756077117,678.3223980421409,0.4710944265216268,0,0,69,69,PASS,69,0,0,True,True,True,True,69,KEEP,No BAD or REVIEW EEG channels,False,False
+sub-023,5,sub-023_ses-01_task-WorkingMemory_run-5_eeg.set,71,69,500.0586756077117,618.9373669477178,0.3143411483485855,0,5,64,69,PASS,64,5,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-024,1,sub-024_ses-01_task-WorkingMemory_run-1_eeg.set,71,69,500.0,569.858,23.067563499619155,0,8,61,69,PASS,61,8,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-024,2,sub-024_ses-01_task-WorkingMemory_run-2_eeg.set,71,69,500.0,563.202,27.5120914263754,0,7,62,69,PASS,62,7,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False
+sub-024,3,sub-024_ses-01_task-WorkingMemory_run-3_eeg.set,71,69,500.0,566.782,22.819790344611544,0,7,62,69,PASS,62,7,0,True,True,True,True,69,KEEP_REVIEW,1-9 REVIEW EEG channels,True,False

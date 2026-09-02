@@ -1,0 +1,13 @@
+metric,value
+input_rows,21067
+input_scientific_features,63
+constant_features_removed,3
+features_after_constant_removal,60
+high_correlation_pairs,5
+redundant_features_removed,5
+final_selected_features,55
+nan_values,0
+inf_values,0
+duplicate_keys,0
+target_derived_features,0
+target_like_names,0

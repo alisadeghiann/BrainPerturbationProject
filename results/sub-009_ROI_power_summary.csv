@@ -1,0 +1,4 @@
+band,significant_ROIs,total_ROIs,strongest_ROI,strongest_d,strongest_p,strongest_p_fdr
+theta,9,9,Midline,-0.5188504534169486,1.5800224221931376e-06,9.3963538847186e-06
+alpha,2,9,ParietoOccipital,-0.32059713475109264,0.0022112647602776257,0.019901382842498632
+beta,0,9,,,,

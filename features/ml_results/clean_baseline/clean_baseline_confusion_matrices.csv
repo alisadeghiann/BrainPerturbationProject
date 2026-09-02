@@ -1,0 +1,9 @@
+target,model,split,TN,FP,FN,TP
+remember,logistic_regression,validation,1171,408,1301,204
+remember,logistic_regression,test,678,959,978,1040
+remember,random_forest,validation,660,919,801,704
+remember,random_forest,test,617,1020,989,1029
+correct,logistic_regression,validation,278,119,1342,1345
+correct,logistic_regression,test,64,30,1708,1853
+correct,random_forest,validation,0,397,3,2684
+correct,random_forest,test,0,94,108,3453

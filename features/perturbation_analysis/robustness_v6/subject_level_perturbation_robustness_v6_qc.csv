@@ -1,0 +1,9 @@
+﻿metric,value
+input_rows,1265
+input_columns,6
+subjects,23
+features,55
+result_rows,55
+nan_numeric_values,0
+inf_numeric_values,0
+duplicate_features,0

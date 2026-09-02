@@ -1,0 +1,3 @@
+target,features_analyzed,fdr_significant,p_significant,strong_scientific_candidates,moderate_scientific_candidates,mean_abs_cohen_d,max_abs_cohen_d,mean_direction_consistency
+correct,56,40,41,1,3,0.09826318613747362,0.3472432767384936,0.6102941176470589
+remember,56,15,22,0,0,0.02917106560109937,0.121482354178585,0.5665584415584416

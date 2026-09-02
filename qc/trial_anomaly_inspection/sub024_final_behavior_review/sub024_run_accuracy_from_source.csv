@@ -1,0 +1,4 @@
+run_from_file,trials,correct,wrong,accuracy_percent
+1,25,10,15,40.0
+2,25,11,14,44.0
+3,25,10,15,40.0

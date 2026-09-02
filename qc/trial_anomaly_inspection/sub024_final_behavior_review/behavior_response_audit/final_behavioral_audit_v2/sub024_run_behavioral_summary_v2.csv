@@ -1,0 +1,4 @@
+﻿subject,run,trials,correct,wrong,unresolved,accuracy_percent,response_feedback_consistent,response_feedback_inconsistent,trials_needing_check
+sub-024,1,25,10,15,0,40.0,25,0,0
+sub-024,2,25,11,14,0,44.0,25,0,0
+sub-024,3,25,10,15,0,40.0,25,0,0
