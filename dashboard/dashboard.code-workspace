@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../data"
+		},
+		{
+			"path": "../epochs"
+		},
+		{
+			"path": "../epochs_clean"
+		},
+		{
+			"path": "../epochs_v2"
+		},
+		{
+			"path": "../epochs_v3"
+		},
+		{
+			"path": "../features"
+		},
+		{
+			"path": "../final_dataset"
+		},
+		{
+			"path": "../models"
+		},
+		{
+			"path": "../notebooks"
+		},
+		{
+			"path": "../perturbation"
+		},
+		{
+			"path": "../preprocessed"
+		},
+		{
+			"path": "../preprocessed_v2"
+		},
+		{
+			"path": "../processed"
+		},
+		{
+			"path": "../qc"
+		},
+		{
+			"path": "../results"
+		},
+		{
+			"path": "../simulation"
+		}
+	]
+}

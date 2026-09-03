@@ -59,3 +59,5 @@ ENV/
 # ==============================
 .env
 *.env
+features/basic/eeg_feature_matrix.csv
+features/basic/eeg_band_power_features.csv

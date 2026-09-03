@@ -1,4 +1,4 @@
-```python
+
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -463,4 +463,3 @@ print()
 print("=" * 80)
 print("STATUS: INVENTORY COMPLETE - REVIEW OUTPUT BEFORE PERTURBATION MODELING")
 print("=" * 80)
-```
