@@ -1,8 +1,0 @@
-type,bad_trial,feedback_correct,feedback_incorrect,fixate,ignored_correct,ignored_incorrect,indicate_ready,probe_not_shown,probe_target,remembered_correct,remembered_incorrect,to_ignore,to_remember,work_memory
-left_click,7,0,0,0,877,87,814,0,0,0,0,0,0,0
-right_click,0,0,0,0,0,0,1231,0,0,1054,56,0,0,0
-show_cross,16,0,0,2045,0,0,0,0,0,0,0,0,0,0
-show_dash,2,0,0,0,0,0,0,0,0,0,0,0,0,2045
-show_letter,25,0,0,0,0,0,0,908,1137,0,0,6135,10225,0
-sound_beep,2,1819,0,0,0,0,0,0,0,0,0,0,0,0
-sound_buzz,14,0,116,0,0,0,0,0,0,0,0,0,0,0

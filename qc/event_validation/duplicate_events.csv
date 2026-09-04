@@ -1,3 +1,0 @@
-subject,session,run,source_file,duration,latency,letter,memory_cond,sample,task_role,trial,type,urevent,value,file,subject_from_file,latency_num,sample_num,trial_num
-sub-004,ses-01,,sub-004_ses-01_task-WorkingMemory_run-4_eeg.set,0.0,1566.0,,0,1566,remembered_correct,0,right_click,1.0,1,sub-004_ses-01_task-WorkingMemory_run-4_eeg.set,sub-004,1566.0,1566,0
-sub-004,ses-01,,sub-004_ses-01_task-WorkingMemory_run-4_eeg.set,0.0,1566.0,,0,1566,remembered_correct,0,right_click,2.0,1,sub-004_ses-01_task-WorkingMemory_run-4_eeg.set,sub-004,1566.0,1566,0

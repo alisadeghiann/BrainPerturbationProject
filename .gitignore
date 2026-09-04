@@ -61,3 +61,12 @@ ENV/
 *.env
 features/basic/eeg_feature_matrix.csv
 features/basic/eeg_band_power_features.csv
+# ==============================
+# Generated QC Outputs
+# ==============================
+qc/preprocessed/
+qc/plots/
+qc/events/
+qc/event_validation/
+qc/trial_anomaly_inspection/
+qc/epochs/

@@ -1,4 +1,0 @@
-﻿subject,run,trials,correct,wrong,unresolved,accuracy_percent,probe_memory_mismatches,response_feedback_mismatches,trials_needing_check
-sub-024,1,25,10,15,0,40.0,0,0,0
-sub-024,2,25,11,14,0,44.0,0,0,0
-sub-024,3,25,10,15,0,40.0,0,0,0
