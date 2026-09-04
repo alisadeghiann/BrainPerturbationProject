@@ -2,63 +2,15 @@
 
 
 
-An end-to-end EEG analytics and machine learning project for investigating \*\*working memory-related neural activity\*\* through rigorous data quality control, preprocessing, behavioral alignment, feature engineering, statistical analysis, machine learning, explainability, robustness analysis, empirical null validation, and evidence reconciliation.
+An end-to-end, research-oriented EEG analytics pipeline for investigating working-memory-related neural activity through quality control, preprocessing, behavioral alignment, feature engineering, statistical analysis, machine learning, explainability, robustness analysis, empirical null validation, and evidence reconciliation.
 
 
 
-The project is designed as a \*\*research-grade analytical pipeline and neurotechnology portfolio project\*\*, demonstrating how raw EEG data can be transformed into a validated, interpretable, and analysis-ready evidence layer.
+The project demonstrates how raw EEG recordings can be transformed into a validated, interpretable, and structured analytical evidence layer.
 
 
 
-\---
-
-
-
-\# Repository Purpose
-
-
-
-The purpose of this repository is to demonstrate a complete workflow for transforming raw EEG recordings into scientifically interpretable analytical outputs.
-
-
-
-Rather than focusing only on predictive modeling, the project emphasizes the full analytical lifecycle:
-
-
-
-\*\*Raw EEG → Quality Control → Preprocessing → ICA → Epoch Validation → Behavioral Alignment → Feature Engineering → Statistical Analysis → Machine Learning → Explainability → Robustness → Empirical Null Validation → Evidence Reconciliation → Final Analytical Dataset\*\*
-
-
-
-The repository is intended to demonstrate practical skills across:
-
-
-
-\* EEG signal processing
-
-\* Scientific data quality control
-
-\* Behavioral reconstruction and event alignment
-
-\* Feature engineering
-
-\* Statistical analysis
-
-\* Machine learning
-
-\* Explainable AI
-
-\* Robustness and sensitivity analysis
-
-\* Subject-level analysis
-
-\* Data validation
-
-\* Reproducible research workflows
-
-\* Analytical dataset design
-
-\* Neurotechnology-oriented data science
+> \*\*The project treats EEG analysis as a multi-layer evidence problem rather than simply a prediction problem.\*\*
 
 
 
@@ -66,59 +18,129 @@ The repository is intended to demonstrate practical skills across:
 
 
 
-\# Why This Project Matters
+\## Project Overview
 
 
 
-EEG projects can easily produce attractive machine learning results while hiding problems in data quality, event alignment, subject variability, leakage, or statistical reliability.
+This repository presents a modular EEG analytics workflow built around the \*\*Sternberg Working Memory\*\* paradigm.
 
 
 
-This project therefore treats EEG analysis as a \*\*multi-layer evidence problem\*\*, rather than simply a prediction problem.
+The pipeline integrates signal processing, behavioral reconstruction, statistical analysis, machine learning, explainability, robustness analysis, and evidence synthesis.
 
 
 
-The workflow explicitly addresses:
+\### End-to-End Workflow
 
 
 
-\* Raw EEG quality and channel integrity
+```text
 
-\* Sampling-rate and signal-scale validation
+Raw EEG
 
-\* Event decoding and experimental structure
+&#x20;  ↓
 
-\* Artifact detection and ICA-based cleaning
+Quality Control
 
-\* Epoch-level validation
+&#x20;  ↓
 
-\* Behavioral-response reconstruction
+Preprocessing
 
-\* Subject-aware feature generation
+&#x20;  ↓
 
-\* Statistical effects
+ICA \& Artifact Processing
 
-\* Machine-learning evidence
+&#x20;  ↓
 
-\* Feature explainability
+Epoch Validation
 
-\* Leave-One-Subject-Out sensitivity analysis
+&#x20;  ↓
 
-\* Directional robustness
+Behavioral Reconstruction
 
-\* Empirical null validation
+&#x20;  ↓
 
-\* Cross-target consistency
+EEG–Behavior Alignment
 
-\* Final evidence reconciliation
+&#x20;  ↓
+
+Feature Engineering
+
+&#x20;  ↓
+
+Statistical Analysis
+
+&#x20;  ↓
+
+Machine Learning
+
+&#x20;  ↓
+
+Explainability
+
+&#x20;  ↓
+
+Robustness / LOSO Sensitivity
+
+&#x20;  ↓
+
+Empirical Null Validation
+
+&#x20;  ↓
+
+Evidence Reconciliation
+
+&#x20;  ↓
+
+Final Analytical Dataset
+
+&#x20;  ↓
+
+Power BI Analytics
+
+```
 
 
 
-The result is a pipeline designed to answer not only:
+\---
 
 
 
-> \*\*"Can a model predict the target?"\*\*
+\## Why This Project Matters
+
+
+
+EEG machine-learning projects can produce strong-looking predictive results while overlooking issues such as:
+
+
+
+\* signal quality
+
+\* channel integrity
+
+\* event decoding
+
+\* behavioral alignment
+
+\* subject variability
+
+\* target leakage
+
+\* statistical reliability
+
+\* robustness across subjects
+
+
+
+This project explicitly addresses these layers.
+
+
+
+The analytical goal is therefore not only:
+
+
+
+> \*\*Can a model predict the target?\*\*
 
 
 
@@ -126,7 +148,7 @@ but also:
 
 
 
-> \*\*"Are the observed EEG effects consistent, interpretable, robust, and supported across multiple analytical layers?"\*\*
+> \*\*Are the observed EEG-derived effects consistent, interpretable, robust, and supported across multiple analytical layers?\*\*
 
 
 
@@ -134,7 +156,7 @@ but also:
 
 
 
-\# Project Highlights
+\## Project Highlights
 
 
 
@@ -142,157 +164,43 @@ but also:
 
 \* Working-memory EEG analysis
 
-\* Multi-stage quality control
+\* Multi-stage EEG quality control
 
-\* Behavioral and EEG event alignment
+\* Channel, sampling-rate, and signal-scale validation
+
+\* Event inspection and decoding
 
 \* ICA-based artifact processing
 
+\* Epoch-level validation
+
+\* Behavioral reconstruction and EEG–behavior alignment
+
 \* Subject-level feature engineering
-
-\* Statistical and machine-learning analysis
-
-\* SHAP-based explainability
-
-\* Leave-One-Subject-Out sensitivity analysis
-
-\* Directional robustness analysis
-
-\* Empirical null validation
-
-\* Multi-layer evidence reconciliation
-
-\* Final publication-oriented analytical dataset
-
-\* Power BI-ready analytical layer
-
-\* Reproducibility-oriented project structure
-
-
-
-\---
-
-
-
-\# Skills Demonstrated
-
-
-
-\### EEG \& Neuroscience
-
-
-
-\* EEG preprocessing
-
-\* Channel quality control
-
-\* Event and trigger inspection
-
-\* Epoch validation
-
-\* Artifact analysis
-
-\* ICA
-
-\* Behavioral alignment
-
-\* Working-memory experimental analysis
-
-
-
-\### Data Science
-
-
-
-\* Python
-
-\* Pandas
-
-\* NumPy
-
-\* SciPy
-
-\* Scikit-learn
-
-\* Data validation
-
-\* Feature engineering
 
 \* Statistical analysis
 
 \* Machine learning
 
+\* SHAP-based explainability
 
+\* Subject-aware robustness analysis
 
-\### Machine Learning
+\* Leave-One-Subject-Out (LOSO) sensitivity analysis
 
-
-
-\* Classification workflows
-
-\* Subject-aware analysis
-
-\* Feature importance
-
-\* SHAP explainability
-
-\* Robustness analysis
-
-\* Sensitivity analysis
-
-\* Leakage auditing
-
-
-
-\### Scientific Analytics
-
-
-
-\* Statistical effect analysis
-
-\* Multiple analytical evidence layers
+\* Directional robustness analysis
 
 \* Empirical null validation
 
-\* Cross-target consistency
+\* Cross-target consistency analysis
 
-\* Subject-level robustness
+\* Multi-layer evidence reconciliation
 
-\* Evidence reconciliation
+\* Validated final analytical dataset
 
-\* Scientific QC
+\* Power BI-ready analytical layer
 
-
-
-\### Data Visualization \& BI
-
-
-
-\* Power BI
-
-\* Analytical dataset design
-
-\* Feature-level reporting
-
-\* Research-oriented visualization
-
-
-
-\### Reproducibility \& Engineering
-
-
-
-\* Modular Python scripts
-
-\* Structured project organization
-
-\* Intermediate validation layers
-
-\* Automated QC outputs
-
-\* Git/GitHub version control
-
-\* Large-data exclusion from repository
+\* Modular and reproducibility-oriented project structure
 
 
 
@@ -300,93 +208,15 @@ but also:
 
 
 
-\# Overview
+\## Dataset
 
 
 
-The project uses EEG recordings from a publicly available working-memory dataset and develops an analytical pipeline from raw recordings to a final feature-level evidence dataset.
+The project uses the publicly available:
 
 
 
-The pipeline combines \*\*signal processing, behavioral information, statistics, machine learning, explainability, robustness analysis, and evidence synthesis\*\*.
-
-
-
-Two principal behavioral targets are used throughout the analytical workflow:
-
-
-
-\* `target\_remember`
-
-\* `target\_correct`
-
-
-
-\---
-
-
-
-\# Key Results
-
-
-
-The current analytical pipeline produces:
-
-
-
-| Metric                                          |                     Result |
-
-| ----------------------------------------------- | -------------------------: |
-
-| Original EEG recordings in dataset              |                         85 |
-
-| Validated EEG epoch files/runs used in pipeline |                         82 |
-
-| Subject-feature records                         |                      1,265 |
-
-| Final feature space                             |                55 features |
-
-| Behavioral targets                              |                          2 |
-
-| Final product dataset                           |                    55 rows |
-
-| Final product dataset columns                   |                         15 |
-
-| Selected analytical columns                     |                         10 |
-
-| Final dataset NaN                               |                          0 |
-
-| Final dataset Inf                               |                          0 |
-
-| Duplicate features                              |                          0 |
-
-| Null validation feature-target observations     |                        110 |
-
-| Null validation significant observations        |                          1 |
-
-| Top reconciled feature                          | `alpha\_beta\_central\_ratio` |
-
-| Top integrated evidence score                   |                    ≈ 0.653 |
-
-
-
-The integrated evidence score should be interpreted as a \*\*multi-layer evidence ranking score\*\*, not as a probability, effect size, or model accuracy.
-
-
-
-\---
-
-
-
-\# Dataset
-
-
-
-This project uses:
-
-
-
-\*\*OpenNeuro — DS004117: Sternberg Working Memory\*\*
+\*\*OpenNeuro DS004117 — Sternberg Working Memory\*\*
 
 
 
@@ -394,15 +224,11 @@ Dataset version:
 
 
 
-\*\*1.0.1\*\*
+```text
 
+1.0.1
 
-
-Source:
-
-
-
-https://openneuro.org/datasets/ds004117/versions/1.0.1
+```
 
 
 
@@ -412,7 +238,7 @@ Dataset characteristics include:
 
 \* 23 healthy young adults
 
-\* 85 EEG recordings in the original dataset
+\* 85 original EEG recordings
 
 \* 71 EEG channels
 
@@ -422,23 +248,35 @@ Dataset characteristics include:
 
 \* HED annotations
 
-\* CC0 license
+\* CC0 licensing
 
 
 
-The original dataset and this project's processed analytical subset should not be conflated:
+The original dataset should be distinguished from the analytical subset used by this project:
 
 
 
-\*\*Original dataset:\*\* 85 EEG recordings
+| Dataset Layer                  | Count |
+
+| ------------------------------ | ----: |
+
+| Original EEG recordings        |    85 |
+
+| Validated EEG epoch files/runs |    82 |
+
+| Subjects                       |    23 |
+
+| Subject × feature observations | 1,265 |
+
+| Unique EEG-derived features    |    55 |
 
 
 
-\*\*Project analytical pipeline:\*\* 82 validated EEG epoch files/runs
+Raw EEG recordings are intentionally excluded from this repository because of their size and data-management considerations.
 
 
 
-Raw EEG files are intentionally excluded from this GitHub repository because of file size and reproducibility/data-management considerations.
+Users wishing to reproduce the analysis should obtain the original dataset directly from OpenNeuro.
 
 
 
@@ -446,11 +284,11 @@ Raw EEG files are intentionally excluded from this GitHub repository because of 
 
 
 
-\# Original Study
+\## Original Study
 
 
 
-The dataset is associated with the study:
+The dataset is associated with:
 
 
 
@@ -462,7 +300,7 @@ The dataset is associated with the study:
 
 
 
-NeuroImage, 27(2), 341–356.
+\*NeuroImage, 27(2), 341–356.\*
 
 
 
@@ -470,43 +308,15 @@ DOI:
 
 
 
+```text
+
 10.1016/j.neuroimage.2005.04.014
 
-
-
-The original experimental paradigm is based on a modified \*\*Sternberg Working Memory task\*\*, in which participants memorize relevant letters while ignoring irrelevant information and subsequently respond to a probe indicating whether a memorized item was present.
-
-
-
-\---
+```
 
 
 
-\# Experimental Concept
-
-
-
-The analytical goal is to investigate whether EEG-derived features contain systematic information related to working-memory behavior.
-
-
-
-Conceptually:
-
-
-
-\*\*EEG activity → Neural features → Behavioral relationship → Statistical evidence → ML evidence → Robustness → Final evidence ranking\*\*
-
-
-
-The project therefore integrates both \*\*neuroscientific interpretation\*\* and \*\*data-science methodology\*\*.
-
-
-
-\---
-
-
-
-\# End-to-End Pipeline
+The experimental paradigm is based on a modified \*\*Sternberg Working Memory task\*\*, in which participants memorize relevant letters, ignore irrelevant information, and subsequently respond to a probe indicating whether a memorized item was present.
 
 
 
@@ -522,7 +332,7 @@ The project therefore integrates both \*\*neuroscientific interpretation\*\* and
 
 
 
-Initial quality-control procedures inspect:
+The initial QC layer evaluates:
 
 
 
@@ -540,11 +350,11 @@ Initial quality-control procedures inspect:
 
 \* Suspicious channels
 
-\* Subject-level recording properties
+\* Subject-level recording characteristics
 
 
 
-Representative scripts include:
+Representative QC workflows include:
 
 
 
@@ -574,6 +384,10 @@ Representative scripts include:
 
 
 
+The purpose of this stage is to identify acquisition and signal-quality problems before downstream processing.
+
+
+
 \---
 
 
@@ -582,15 +396,31 @@ Representative scripts include:
 
 
 
-Experimental events are inspected and decoded to reconstruct the task structure.
+Experimental events are inspected and decoded to reconstruct the structure of the working-memory task.
 
 
 
-This stage ensures that EEG recordings can be reliably connected to experimental events and behavioral information.
+This stage establishes the connection between:
 
 
 
-Representative scripts include:
+```text
+
+EEG recordings
+
+&#x20;     ↓
+
+Experimental events
+
+&#x20;     ↓
+
+Behavioral information
+
+```
+
+
+
+Representative workflows include:
 
 
 
@@ -612,11 +442,11 @@ analyze\_event\_distribution\_v5.py
 
 
 
-EEG data undergoes preprocessing and harmonization before downstream analysis.
+EEG recordings undergo preprocessing and harmonization before feature extraction and downstream analysis.
 
 
 
-The preprocessing layer prepares the recordings for:
+The preprocessing layer prepares the data for:
 
 
 
@@ -640,11 +470,11 @@ The preprocessing layer prepares the recordings for:
 
 
 
-Independent Component Analysis is applied to identify and handle artifact-related components.
+Independent Component Analysis (ICA) is used to identify and handle artifact-related components.
 
 
 
-Representative scripts include:
+Representative workflows include:
 
 
 
@@ -660,7 +490,7 @@ artifact\_localization\_82runs.py
 
 
 
-The goal is to reduce major artifact contamination while preserving relevant EEG information.
+The objective is to reduce major artifact contamination while preserving relevant EEG information.
 
 
 
@@ -672,11 +502,11 @@ The goal is to reduce major artifact contamination while preserving relevant EEG
 
 
 
-The processed EEG recordings are converted into validated epochs suitable for downstream analysis.
+Processed EEG recordings are converted into validated epochs suitable for downstream analysis.
 
 
 
-The project ultimately works with:
+The final analytical workflow uses:
 
 
 
@@ -684,7 +514,7 @@ The project ultimately works with:
 
 
 
-Multiple QC layers are used to verify the integrity of the resulting epochs.
+Multiple QC layers are used to evaluate epoch integrity before feature extraction.
 
 
 
@@ -700,15 +530,31 @@ Behavioral information is reconstructed and aligned with EEG-derived data.
 
 
 
-This layer connects:
+The analytical chain is:
 
 
 
-\*\*Experimental events → Behavioral responses → EEG epochs → Analytical targets\*\*
+```text
+
+Experimental Events
+
+&#x20;       ↓
+
+Behavioral Responses
+
+&#x20;       ↓
+
+EEG Epochs
+
+&#x20;       ↓
+
+Analytical Targets
+
+```
 
 
 
-Two principal targets are used:
+Two principal behavioral targets are used:
 
 
 
@@ -722,7 +568,7 @@ target\_correct
 
 
 
-Representative analytical scripts include:
+Representative workflow:
 
 
 
@@ -734,6 +580,10 @@ audit\_behavioral\_mapping\_82runs.py
 
 
 
+This stage is critical for ensuring that EEG features are paired with the correct behavioral observations.
+
+
+
 \---
 
 
@@ -742,27 +592,27 @@ audit\_behavioral\_mapping\_82runs.py
 
 
 
-EEG-derived features are constructed at the subject level.
+EEG-derived features are constructed for subject-level analysis.
 
 
 
-The final feature space contains:
+The current analytical feature space contains:
 
 
 
-\*\*55 features\*\*
+\*\*55 EEG-derived features\*\*
 
 
 
-The feature engineering layer is designed to capture interpretable signal characteristics relevant to working-memory analysis.
+The subject-level analytical layer contains:
 
 
 
-The resulting subject-level analytical dataset contains:
+\*\*1,265 subject × feature observations\*\*
 
 
 
-\*\*1,265 subject-feature records\*\*
+The feature engineering stage is designed to produce interpretable signal characteristics that can subsequently be evaluated through statistical and machine-learning approaches.
 
 
 
@@ -778,11 +628,11 @@ Statistical analysis evaluates relationships between EEG-derived features and be
 
 
 
-The project includes both Python- and R-based statistical analysis.
+The repository includes both Python- and R-based statistical workflows.
 
 
 
-Representative script:
+Representative R analysis:
 
 
 
@@ -794,7 +644,7 @@ r\_statistical\_analysis\_v1.R
 
 
 
-The statistical layer provides evidence complementary to machine-learning models.
+Statistical evidence is treated as one component of the broader analytical framework rather than as the sole decision criterion.
 
 
 
@@ -806,27 +656,41 @@ The statistical layer provides evidence complementary to machine-learning models
 
 
 
-Machine-learning analysis evaluates whether EEG-derived features contain predictive information related to the behavioral targets.
+Machine-learning workflows evaluate whether EEG-derived features contain predictive information related to the behavioral targets.
 
 
 
-The project emphasizes subject-aware analysis and explicitly audits potential target leakage.
+The current ML pipeline emphasizes:
 
 
 
-Representative script:
+\* subject-aware analysis
+
+\* feature-level modeling
+
+\* target validation
+
+\* leakage auditing
+
+\* model interpretation
+
+\* robustness analysis
+
+
+
+Representative current workflow:
 
 
 
 ```text
 
-audit\_ml\_target\_leakage.py
+baseline\_ml\_v3.py
 
 ```
 
 
 
-Machine-learning results are treated as one evidence layer rather than the sole basis for scientific conclusions.
+Machine-learning results are interpreted as one evidence layer alongside statistical, robustness, and null-validation analyses.
 
 
 
@@ -838,19 +702,31 @@ Machine-learning results are treated as one evidence layer rather than the sole 
 
 
 
-Explainability methods are used to identify which features contribute most strongly to model outputs.
+SHAP-based explainability is incorporated to examine feature contributions to model outputs.
 
 
 
-SHAP-based analysis is incorporated to move from:
+The analytical transition is:
 
 
 
-\*\*Prediction → Feature contribution → Interpretation\*\*
+```text
+
+Prediction
+
+&#x20;   ↓
+
+Feature Contribution
+
+&#x20;   ↓
+
+Interpretation
+
+```
 
 
 
-This allows important EEG-derived features to be investigated beyond raw predictive performance.
+This allows important EEG-derived features to be investigated beyond predictive performance alone.
 
 
 
@@ -858,15 +734,15 @@ This allows important EEG-derived features to be investigated beyond raw predict
 
 
 
-\## 11. Robustness \& Leave-One-Subject-Out Sensitivity
+\## 11. Robustness \& LOSO Sensitivity
 
 
 
-The project includes subject-level robustness and sensitivity analysis.
+The project includes subject-level robustness and Leave-One-Subject-Out (LOSO) sensitivity analysis.
 
 
 
-Representative script:
+Representative workflow:
 
 
 
@@ -878,11 +754,7 @@ publication\_grade\_loso\_sensitivity\_v1.py
 
 
 
-This analysis evaluates whether observed feature effects remain stable when individual subjects are considered separately.
-
-
-
-Importantly, this layer is treated as:
+The LOSO component is intentionally described as:
 
 
 
@@ -890,11 +762,11 @@ Importantly, this layer is treated as:
 
 
 
-rather than claiming it as a conventional LOSO machine-learning validation benchmark.
+rather than being presented as a conventional LOSO machine-learning benchmark.
 
 
 
-Directional robustness analysis evaluates quantities including:
+Directional robustness analysis considers quantities such as:
 
 
 
@@ -914,6 +786,10 @@ Directional robustness analysis evaluates quantities including:
 
 
 
+These analyses help assess whether observed feature-level patterns remain stable across subjects.
+
+
+
 \---
 
 
@@ -922,31 +798,35 @@ Directional robustness analysis evaluates quantities including:
 
 
 
-An empirical null validation layer is used to evaluate whether observed feature-target associations could plausibly arise under a null distribution.
+An empirical null-validation layer is used to evaluate whether observed feature-target associations could plausibly arise under a null distribution.
 
 
 
-The current null validation contains:
+Current validation includes:
 
 
 
-\* 55 features
+| Metric                        | Value |
 
-\* 2 behavioral targets
+| ----------------------------- | ----: |
 
-\* 110 feature-target observations
+| EEG-derived features          |    55 |
 
-\* 1 null-significant observation
+| Behavioral targets            |     2 |
 
-\* 0 NaN
+| Feature-target observations   |   110 |
 
-\* 0 Inf
+| Null-significant observations |     1 |
 
-\* 0 duplicates
+| NaN values                    |     0 |
+
+| Infinite values               |     0 |
+
+| Duplicate observations        |     0 |
 
 
 
-This provides an additional statistical-control layer beyond the main feature ranking.
+The empirical null is treated as an additional statistical-control layer rather than definitive proof of scientific validity.
 
 
 
@@ -958,11 +838,11 @@ This provides an additional statistical-control layer beyond the main feature ra
 
 
 
-The project combines evidence from multiple analytical layers rather than relying on a single metric.
+The project integrates evidence from multiple analytical layers.
 
 
 
-The final evidence reconciliation uses the following weighting framework:
+The current evidence-reconciliation framework uses:
 
 
 
@@ -984,7 +864,7 @@ The final evidence reconciliation uses the following weighting framework:
 
 
 
-The final reconciliation produces a feature-level evidence ranking.
+The resulting framework produces a feature-level evidence ranking.
 
 
 
@@ -1012,7 +892,21 @@ with an integrated evidence score of approximately:
 
 
 
-This score represents a \*\*combined evidence ranking\*\*, not a probability or causal effect estimate.
+The score represents a \*\*multi-layer evidence ranking score\*\*.
+
+
+
+It should \*\*not\*\* be interpreted as:
+
+
+
+\* a probability
+
+\* an effect size
+
+\* model accuracy
+
+\* a causal estimate
 
 
 
@@ -1020,15 +914,15 @@ This score represents a \*\*combined evidence ranking\*\*, not a probability or 
 
 
 
-\# Perturbation / Effect Analysis
+\# Perturbation / Feature-Effect Analysis
 
 
 
-The project includes an analytical effect layer that evaluates feature-level changes across conditions and subjects.
+The project includes a feature-effect / perturbation analysis layer for evaluating feature-level changes across conditions and subjects.
 
 
 
-Representative script:
+Representative workflows include:
 
 
 
@@ -1036,27 +930,31 @@ Representative script:
 
 perturbation\_effect\_analysis.py
 
+perturbation\_feature\_analysis.py
+
+perturbation\_statistical\_analysis\_v2.py
+
 ```
 
 
 
-This layer currently focuses on:
+The analysis considers:
 
 
 
-\* Global condition effects
+\* global condition effects
 
-\* Subject-level effects
+\* subject-level effects
 
-\* Directional consistency
+\* directional consistency
 
-\* Stability
+\* feature stability
 
-\* Quality-control characteristics
+\* robustness characteristics
 
 
 
-The current implementation should therefore be interpreted as \*\*feature-effect / perturbation analysis\*\*, rather than claiming causal intervention or causal inference.
+The current implementation should be interpreted as \*\*feature-effect / perturbation analysis\*\*, not as causal intervention or causal inference.
 
 
 
@@ -1064,31 +962,39 @@ The current implementation should therefore be interpreted as \*\*feature-effect
 
 
 
-\# Final Product Dataset
+\# Final Analytical Product
 
 
 
-The final analytical product layer has been validated with:
+The final analytical product layer provides a structured feature-level output for downstream analysis and reporting.
 
 
 
-\* 55 feature rows
-
-\* 29 input columns
-
-\* 15 final columns
-
-\* 10 selected analytical columns
-
-\* 0 NaN
-
-\* 0 Inf
-
-\* 0 duplicate features
+Current validation includes:
 
 
 
-Representative script:
+| Metric                      | Value |
+
+| --------------------------- | ----: |
+
+| Feature rows                |    55 |
+
+| Input columns               |    29 |
+
+| Final columns               |    15 |
+
+| Selected analytical columns |    10 |
+
+| NaN values                  |     0 |
+
+| Infinite values             |     0 |
+
+| Duplicate features          |     0 |
+
+
+
+Representative workflow:
 
 
 
@@ -1100,7 +1006,7 @@ final\_product\_dataset\_v1.py
 
 
 
-This layer is designed as the final structured analytical output of the research pipeline.
+The final product layer is designed to provide a compact analytical representation of the upstream EEG pipeline.
 
 
 
@@ -1112,11 +1018,11 @@ This layer is designed as the final structured analytical output of the research
 
 
 
-A dedicated Power BI-ready analytical dataset is also generated.
+A Power BI-ready analytical layer is also generated to connect scientific analysis with structured analytical reporting.
 
 
 
-Validation results include:
+Current validation includes:
 
 
 
@@ -1130,7 +1036,7 @@ Validation results include:
 
 
 
-Representative script:
+Representative workflow:
 
 
 
@@ -1142,7 +1048,11 @@ powerbi\_dashboard\_dataset\_v1.py
 
 
 
-The Power BI layer provides a bridge between scientific analysis and practical analytical reporting.
+The Power BI/dashboard layer is intended to provide an interpretable interface for exploring feature-level analytical results.
+
+
+
+\*\*Dashboard development is currently in progress.\*\*
 
 
 
@@ -1150,7 +1060,7 @@ The Power BI layer provides a bridge between scientific analysis and practical a
 
 
 
-\# Folder-by-Folder Explanation
+\# Repository Structure
 
 
 
@@ -1162,7 +1072,7 @@ BrainPerturbationProject/
 
 ├── dashboard/
 
-│   └── Dashboard-oriented outputs
+│   └── Dashboard-related files and outputs
 
 │
 
@@ -1174,37 +1084,31 @@ BrainPerturbationProject/
 
 ├── epochs/
 
-│   └── Initial epoch outputs
-
-│
-
 ├── epochs\_clean/
-
-│   └── Cleaned epoch data
-
-│
 
 ├── epochs\_v2/
 
-│   └── Second-stage epoch outputs
-
-│
-
 ├── epochs\_v3/
 
-│   └── Final-stage epoch outputs
+│   └── Local EEG epoch outputs
 
 │
 
 ├── features/
 
-│   └── EEG-derived feature datasets
+│   ├── scientific\_v1/
+
+│   ├── scientific\_v2/
+
+│   ├── ml\_ready\_v2/
+
+│   └── perturbation\_analysis/
 
 │
 
 ├── final\_dataset/
 
-│   └── Final analytical datasets
+│   └── Final analytical outputs
 
 │
 
@@ -1222,31 +1126,23 @@ BrainPerturbationProject/
 
 ├── perturbation/
 
-│   └── Feature-effect and perturbation-related outputs
+│   └── Perturbation-related outputs
 
 │
 
 ├── preprocessed/
 
-│   └── Preprocessed EEG data
-
-│
-
 ├── preprocessed\_v2/
-
-│   └── Updated preprocessing outputs
-
-│
 
 ├── processed/
 
-│   └── Intermediate processed data
+│   └── Local/intermediate EEG processing outputs
 
 │
 
 ├── qc/
 
-│   └── Quality-control reports and validation outputs
+│   └── Quality-control and validation reports
 
 │
 
@@ -1258,39 +1154,25 @@ BrainPerturbationProject/
 
 ├── simulation/
 
-│   └── Simulation-related analytical outputs
+│   └── Simulation-related outputs
 
 │
 
 ├── pipeline.png
 
-│   └── End-to-end analytical pipeline diagram
+│   └── End-to-end pipeline visualization
 
 │
 
-├── \*.py
+├── README.md
 
-│   └── Modular analysis and processing scripts
-
-│
-
-├── \*.R
-
-│   └── R-based statistical analysis
-
-│
-
-├── .gitignore
-
-│   └── Large/raw/generated data exclusion rules
-
-│
-
-└── README.md
-
-&#x20;   └── Project documentation
+└── Python / R analytical scripts
 
 ```
+
+
+
+Large raw and intermediate EEG data are maintained locally and are not intended to be versioned in GitHub.
 
 
 
@@ -1302,11 +1184,11 @@ BrainPerturbationProject/
 
 
 
-This repository contains a modular research pipeline rather than a single one-click script.
+This repository is a \*\*modular research pipeline\*\*, not a single one-click application.
 
 
 
-A typical execution sequence is:
+A typical analytical sequence is:
 
 
 
@@ -1314,7 +1196,7 @@ A typical execution sequence is:
 
 
 
-Run the initial QC scripts:
+Run the relevant QC workflows:
 
 
 
@@ -1384,15 +1266,73 @@ audit\_behavioral\_mapping\_82runs.py
 
 
 
-Generate subject-level EEG feature datasets using the feature-engineering scripts and configured input/output paths.
+Generate the scientific EEG feature datasets using the configured feature-engineering workflows.
 
 
 
-\### Step 6 — Statistical Analysis
+The current pipeline includes:
 
 
 
-Run the relevant Python statistical scripts and:
+```text
+
+feature\_engineering\_scientific\_v1.py
+
+feature\_engineering\_scientific\_v2.py
+
+```
+
+
+
+\### Step 6 — ML Dataset Preparation
+
+
+
+The current ML workflow uses the v2 analytical dataset and feature-selection layer.
+
+
+
+Representative workflows include:
+
+
+
+```text
+
+build\_ml\_ready\_dataset\_v2.py
+
+scientific\_feature\_selection\_v2.py
+
+build\_subject\_level\_split\_v2.py
+
+```
+
+
+
+\### Step 7 — Machine Learning \& Explainability
+
+
+
+Run the current ML workflow:
+
+
+
+```text
+
+baseline\_ml\_v3.py
+
+```
+
+
+
+followed by the relevant explainability analyses.
+
+
+
+\### Step 8 — Statistical Analysis
+
+
+
+Run the relevant Python and R statistical workflows, including:
 
 
 
@@ -1404,15 +1344,11 @@ r\_statistical\_analysis\_v1.R
 
 
 
-\### Step 7 — Machine Learning \& Explainability
+\### Step 9 — Robustness \& Sensitivity
 
 
 
-Run the configured ML workflows and SHAP-based analysis.
-
-
-
-\### Step 8 — Robustness \& Sensitivity
+Representative workflows include:
 
 
 
@@ -1426,23 +1362,23 @@ publication\_grade\_robustness\_validation\_v1.py
 
 
 
-\### Step 9 — Empirical Null Validation
+\### Step 10 — Empirical Null Validation
 
 
 
-Run the null-validation workflow.
+Run the configured empirical-null validation workflow.
 
 
 
-\### Step 10 — Evidence Reconciliation
+\### Step 11 — Evidence Reconciliation
 
 
 
-Generate the final evidence ranking and analytical product dataset.
+Generate the final evidence ranking and analytical product outputs.
 
 
 
-Representative scripts include:
+Representative workflows include:
 
 
 
@@ -1468,107 +1404,47 @@ powerbi\_dashboard\_dataset\_v1.py
 
 
 
-\# Repository Structure
+\# Reproducibility \& Data Management
 
 
 
-```text
-
-BrainPerturbationProject/
-
-│
-
-├── dashboard/
-
-├── data/
-
-├── epochs/
-
-├── epochs\_clean/
-
-├── epochs\_v2/
-
-├── epochs\_v3/
-
-├── features/
-
-├── final\_dataset/
-
-├── models/
-
-├── notebooks/
-
-├── perturbation/
-
-├── preprocessed/
-
-├── preprocessed\_v2/
-
-├── processed/
-
-├── qc/
-
-├── results/
-
-├── simulation/
-
-│
-
-├── pipeline.png
-
-├── README.md
-
-├── .gitignore
-
-│
-
-└── Python / R analytical scripts
-
-```
+The project follows a modular and auditable workflow.
 
 
 
-\---
+Key principles include:
 
 
 
-\# Data Management
+\* Explicit preprocessing stages
+
+\* Dedicated QC outputs
+
+\* Subject-level analytical records
+
+\* Explicit behavioral target definitions
+
+\* Separate EEG–behavior alignment
+
+\* Leakage auditing
+
+\* Multiple validation layers
+
+\* Structured intermediate outputs
+
+\* Final dataset validation
+
+\* Git/GitHub version control
+
+\* Exclusion of large raw EEG files from version control
 
 
 
-Raw and intermediate EEG data are intentionally excluded from the public repository.
+Raw EEG recordings and other large intermediate artifacts are intentionally excluded from the public repository.
 
 
 
-The `.gitignore` configuration excludes:
-
-
-
-```text
-
-data/
-
-epochs/
-
-epochs\_clean/
-
-epochs\_v2/
-
-epochs\_v3/
-
-preprocessed/
-
-preprocessed\_v2/
-
-processed/
-
-final\_dataset/
-
-```
-
-
-
-It also excludes large EEG file formats including:
+The `.gitignore` configuration excludes local/raw data and large EEG formats such as:
 
 
 
@@ -1592,69 +1468,11 @@ It also excludes large EEG file formats including:
 
 
 
-Temporary files, Python environments, logs, and other generated artifacts are also excluded.
+as well as local processing directories and temporary development artifacts.
 
 
 
-This keeps the repository focused on:
-
-
-
-\* Code
-
-\* Documentation
-
-\* Analytical methodology
-
-\* Reproducible project structure
-
-\* Lightweight analytical outputs
-
-
-
-rather than large binary EEG recordings.
-
-
-
-\---
-
-
-
-\# Reproducibility
-
-
-
-The project is structured around modular and auditable analytical stages.
-
-
-
-Key reproducibility principles include:
-
-
-
-\* Explicit preprocessing stages
-
-\* Dedicated QC outputs
-
-\* Subject-level analytical records
-
-\* Separate behavioral alignment
-
-\* Explicit target definitions
-
-\* Leakage auditing
-
-\* Multiple validation layers
-
-\* Structured intermediate outputs
-
-\* Final dataset validation
-
-\* Git-based version control
-
-
-
-The repository is designed so that each major analytical stage can be inspected independently.
+The original OpenNeuro dataset must be obtained separately for full reproduction.
 
 
 
@@ -1666,7 +1484,7 @@ The repository is designed so that each major analytical stage can be inspected 
 
 
 
-\### Programming
+\## Programming
 
 
 
@@ -1676,7 +1494,7 @@ The repository is designed so that each major analytical stage can be inspected 
 
 
 
-\### Python Ecosystem
+\## Python Ecosystem
 
 
 
@@ -1686,7 +1504,7 @@ The repository is designed so that each major analytical stage can be inspected 
 
 \* SciPy
 
-\* Scikit-learn
+\* scikit-learn
 
 \* MNE-Python
 
@@ -1696,11 +1514,9 @@ The repository is designed so that each major analytical stage can be inspected 
 
 
 
-\### Analytics \& BI
+\## Analytics
 
 
-
-\* Power BI
 
 \* Statistical analysis
 
@@ -1708,9 +1524,29 @@ The repository is designed so that each major analytical stage can be inspected 
 
 \* Explainable AI
 
+\* Feature engineering
+
+\* Signal processing
+
+\* Data validation
+
+\* Robustness analysis
 
 
-\### Version Control
+
+\## Business Intelligence
+
+
+
+\* Power BI
+
+\* Analytical dataset design
+
+\* Feature-level reporting
+
+
+
+\## Version Control
 
 
 
@@ -1728,23 +1564,59 @@ The repository is designed so that each major analytical stage can be inspected 
 
 
 
-The project investigates EEG-derived evidence related to working memory at the intersection of neuroscience and data science.
+The analytical philosophy of the project is:
 
 
 
-The analytical philosophy is:
+```text
+
+Data Quality
+
+&#x20;    ↓
+
+Signal Integrity
+
+&#x20;    ↓
+
+Behavioral Alignment
+
+&#x20;    ↓
+
+Feature Engineering
+
+&#x20;    ↓
+
+Statistics
+
+&#x20;    ↓
+
+Machine Learning
+
+&#x20;    ↓
+
+Explainability
+
+&#x20;    ↓
+
+Robustness
+
+&#x20;    ↓
+
+Null Control
+
+&#x20;    ↓
+
+Evidence Synthesis
+
+```
 
 
 
-\*\*Data Quality → Signal Integrity → Behavioral Alignment → Features → Statistics → ML → Explainability → Robustness → Null Control → Evidence Synthesis\*\*
+This framework reduces the risk of interpreting a single model result as definitive scientific evidence.
 
 
 
-This approach reduces the risk of interpreting a single model result as definitive scientific evidence.
-
-
-
-Instead, features are evaluated through multiple complementary perspectives.
+Instead, EEG-derived features are evaluated from multiple complementary perspectives.
 
 
 
@@ -1752,31 +1624,49 @@ Instead, features are evaluated through multiple complementary perspectives.
 
 
 
-\# Key Takeaways
+\# Key Results
 
 
 
-\* Built an \*\*end-to-end EEG analytics pipeline\*\* from raw recordings to final analytical evidence.
+The current analytical pipeline produces:
 
-\* Implemented a \*\*multi-layer quality-control framework\*\* rather than relying on a single preprocessing step.
 
-\* Connected EEG recordings with behavioral information through \*\*event decoding and alignment\*\*.
 
-\* Developed a \*\*55-feature analytical space\*\* across 1,265 subject-feature records.
+\* \*\*23 subjects\*\*
 
-\* Combined \*\*statistics and machine learning\*\* instead of treating ML performance as the only evidence.
+\* \*\*85 original EEG recordings\*\*
 
-\* Added \*\*SHAP-based explainability\*\* for feature-level interpretation.
+\* \*\*82 validated EEG epoch files/runs\*\*
 
-\* Used \*\*subject-level robustness and Leave-One-Subject-Out sensitivity analysis\*\*.
+\* \*\*55 EEG-derived features\*\*
 
-\* Added \*\*empirical null validation\*\* as an additional statistical-control layer.
+\* \*\*1,265 subject × feature observations\*\*
 
-\* Built a \*\*multi-layer evidence reconciliation framework\*\* for ranking EEG-derived features.
+\* \*\*2 principal behavioral targets\*\*
 
-\* Produced a validated \*\*final analytical dataset\*\* and a \*\*Power BI-ready data layer\*\*.
+\* \*\*55 final feature-level product rows\*\*
 
-\* Demonstrated the ability to transform complex neuroscience data into a structured analytical product.
+\* \*\*15 final product columns\*\*
+
+\* \*\*10 selected analytical columns\*\*
+
+\* \*\*0 NaN values in the final dataset\*\*
+
+\* \*\*0 infinite values in the final dataset\*\*
+
+\* \*\*0 duplicate features\*\*
+
+\* \*\*110 empirical-null feature-target observations\*\*
+
+\* \*\*1 null-significant observation\*\*
+
+\* \*\*Top reconciled feature:\*\* `alpha\_beta\_central\_ratio`
+
+\* \*\*Integrated evidence score:\*\* approximately `0.653`
+
+
+
+The integrated score is a multi-layer evidence ranking and is not equivalent to probability, model accuracy, or causal effect size.
 
 
 
@@ -1788,11 +1678,7 @@ Instead, features are evaluated through multiple complementary perspectives.
 
 
 
-Several limitations should be considered when interpreting the results.
-
-
-
-\### Dataset Size
+\## Dataset Size
 
 
 
@@ -1800,27 +1686,27 @@ The dataset contains a relatively limited number of participants for modern mach
 
 
 
-Therefore, findings should be interpreted as analytical evidence rather than definitive population-level conclusions.
+Results should therefore be interpreted as analytical evidence rather than definitive population-level conclusions.
 
 
 
-\### Subject Generalization
+\## Subject Generalization
 
 
 
-Subject-level variability is substantial in EEG research.
+EEG signals exhibit substantial inter-subject variability.
 
 
 
-The inclusion of sensitivity and robustness analyses helps assess stability, but does not eliminate the challenge of generalizing to new populations.
+Subject-level robustness and sensitivity analyses help evaluate stability but do not eliminate the challenge of generalization.
 
 
 
-\### Causal Interpretation
+\## Causal Interpretation
 
 
 
-The current perturbation/effect layer does not establish causal relationships.
+The perturbation/effect analysis does not establish causal relationships.
 
 
 
@@ -1828,19 +1714,19 @@ Observed associations should therefore not be interpreted as causal neural mecha
 
 
 
-\### Machine-Learning Interpretation
+\## Machine-Learning Interpretation
 
 
 
-Machine-learning evidence should be interpreted together with statistical, robustness, and null-validation results.
+Machine-learning evidence should be interpreted together with statistical, robustness, explainability, and null-validation results.
 
 
 
-\### Null Validation
+\## Empirical Null Interpretation
 
 
 
-The empirical null validation provides an additional control layer, but one null-significant observation among the tested feature-target combinations should be interpreted cautiously and does not by itself establish broad statistical validity.
+The empirical null layer provides an additional control mechanism, but a small number of significant observations should be interpreted cautiously and do not independently establish broad statistical validity.
 
 
 
@@ -1856,7 +1742,7 @@ Potential extensions include:
 
 
 
-\### 1. Advanced EEG Feature Engineering
+\## 1. Advanced EEG Feature Engineering
 
 
 
@@ -1868,11 +1754,11 @@ Potential extensions include:
 
 \* Cross-frequency coupling
 
-\* More advanced spatial features
+\* Advanced spatial features
 
 
 
-\### 2. Advanced Machine Learning
+\## 2. Advanced Machine Learning
 
 
 
@@ -1888,7 +1774,7 @@ Potential extensions include:
 
 
 
-\### 3. Deep Learning
+\## 3. Deep Learning
 
 
 
@@ -1906,7 +1792,7 @@ Potential architectures include:
 
 
 
-\### 4. Advanced Explainability
+\## 4. Advanced Explainability
 
 
 
@@ -1922,19 +1808,19 @@ Potential architectures include:
 
 
 
-\### 5. Counterfactual / What-If Simulation
+\## 5. Counterfactual / What-If Simulation
 
 
 
-A future extension could implement explicit controlled feature perturbations and counterfactual simulations to investigate how changing individual analytical features affects model predictions.
+A future extension could implement controlled feature perturbations and counterfactual simulations to investigate how changes in individual analytical features affect model predictions.
 
 
 
-\### 6. Neurotechnology Product Layer
+\## 6. Neurotechnology Product Layer
 
 
 
-Potential future development:
+A longer-term direction is to evolve the research prototype toward an analytical neurotechnology workflow:
 
 
 
@@ -1970,10 +1856,6 @@ Subject-Level Report
 
 
 
-This could evolve the research prototype toward a practical neurotechnology analytics platform.
-
-
-
 \---
 
 
@@ -1982,11 +1864,11 @@ This could evolve the research prototype toward a practical neurotechnology anal
 
 
 
-\*\*Status: Completed analytical prototype / portfolio-ready research pipeline\*\*
+\*\*Status: Research-oriented analytical prototype / portfolio-ready pipeline\*\*
 
 
 
-The current project includes:
+Current components include:
 
 
 
@@ -2002,7 +1884,7 @@ The current project includes:
 
 \* Epoch validation
 
-\* Feature engineering
+\* Scientific feature engineering
 
 \* Statistical analysis
 
@@ -2012,7 +1894,7 @@ The current project includes:
 
 \* Robustness analysis
 
-\* LOSO sensitivity
+\* LOSO sensitivity analysis
 
 \* Empirical null validation
 
@@ -2022,61 +1904,9 @@ The current project includes:
 
 \* Power BI-ready analytical layer
 
-\* GitHub-ready project structure
 
 
-
-\---
-
-
-
-\# Project Scale
-
-
-
-The project combines:
-
-
-
-\* EEG signal processing
-
-\* Behavioral data reconstruction
-
-\* Scientific quality control
-
-\* Statistical analysis
-
-\* Machine learning
-
-\* Explainable AI
-
-\* Robustness testing
-
-\* Empirical null validation
-
-\* Data engineering
-
-\* Business intelligence
-
-
-
-This makes the project relevant to both:
-
-
-
-\*\*Data Science / Business Analytics\*\*
-
-
-
-and
-
-
-
-\*\*Neuroscience / Neurotechnology\*\*
-
-
-
-applications.
+\*\*Dashboard development is ongoing.\*\*
 
 
 
@@ -2088,7 +1918,7 @@ applications.
 
 
 
-The project uses a publicly available research dataset.
+This project uses a publicly available research dataset.
 
 
 
@@ -2096,11 +1926,11 @@ The repository does not distribute the original raw EEG recordings.
 
 
 
-Users interested in reproducing the analysis should obtain the dataset directly from OpenNeuro and follow the dataset's licensing and usage conditions.
+Users interested in reproducing the analysis should obtain the dataset directly from OpenNeuro and follow its licensing and usage requirements.
 
 
 
-No personal identifying information is intentionally included in the analytical repository.
+No personally identifying information is intentionally included in the analytical repository.
 
 
 
@@ -2112,11 +1942,11 @@ No personal identifying information is intentionally included in the analytical 
 
 
 
-If you use this project or build upon its methodology, please cite the original dataset and study.
+If you use this project or build upon its methodology, please cite the original dataset and associated study.
 
 
 
-\### Dataset
+\## Dataset
 
 
 
@@ -2124,15 +1954,11 @@ Onton, J., Delorme, A., Makeig, S., et al.
 
 
 
-\*\*OpenNeuro Dataset DS004117 — Sternberg Working Memory.\*\*
+\*\*OpenNeuro Dataset DS004117 — Sternberg Working Memory\*\*
 
 
 
 Dataset version 1.0.1.
-
-
-
-DOI:
 
 
 
@@ -2144,7 +1970,7 @@ DOI:
 
 
 
-\### Original Study
+\## Original Study
 
 
 
@@ -2156,11 +1982,7 @@ Onton, J., Delorme, A., \& Makeig, S. (2005).
 
 
 
-NeuroImage, 27(2), 341–356.
-
-
-
-DOI:
+\*NeuroImage, 27(2), 341–356.\*
 
 
 
@@ -2184,7 +2006,7 @@ DOI:
 
 
 
-Business \& Data Analytics | Machine Learning
+Business \& Data Analytics | Machine Learning | EEG Analytics
 
 
 
@@ -2192,29 +2014,7 @@ Business \& Data Analytics | Machine Learning
 
 
 
-\# Contact / Collaboration
-
-
-
-Interested in collaboration across:
-
-
-
-\* Data Analytics
-
-\* Machine Learning
-
-\* EEG Analysis
-
-\* Neurotechnology
-
-\* Data Science
-
-\* Research-oriented AI
-
-
-
-For research, MSc, technical, or interdisciplinary collaboration:
+\# Contact \& Collaboration
 
 
 
@@ -2258,7 +2058,7 @@ Please refer to the original dataset documentation before redistributing or usin
 
 
 
-This project builds upon the publicly available \*\*Sternberg Working Memory EEG dataset (OpenNeuro DS004117)\*\* and the research contributions of the original dataset authors and contributors.
+This project builds upon the publicly available \*\*Sternberg Working Memory EEG dataset (OpenNeuro DS004117)\*\* and the research contributions of its original authors and contributors.
 
 
 
@@ -2370,7 +2170,7 @@ Power BI Analytics
 
 
 
-\*From raw EEG data to validated, interpretable, and evidence-oriented analytical outputs.\*
+\*From raw EEG recordings to validated, interpretable, and evidence-oriented analytical outputs.\*
 
 
 
